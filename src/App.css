@@ -1,5 +1,6 @@
 .App {
   /* text-align: center; */
+  background-color: black;
 }
 
 .title-page .nav{
@@ -52,3 +53,10 @@ a {
   margin: 0;
 }
 
+.about-me{
+  color: aliceblue;
+  height: 100vh;
+}
+.about-me p,.about-me h2{
+  margin: 0%;
+}
