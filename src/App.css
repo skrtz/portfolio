@@ -3,7 +3,8 @@
   background-color: black;
 }
 
-.title-page .nav{
+.nav{
+  margin: 0%;
   display: block;
   display: flex;
   flex-direction: row;
@@ -11,6 +12,7 @@
   justify-content: space-evenly;
   padding-top: 1%;
   width: 100%;
+  padding: 3%;
   background: rgba(0, 0, 0, 0.644);
   z-index: 2;
 }
@@ -60,3 +62,4 @@ a {
 .about-me p,.about-me h2{
   margin: 0%;
 }
+

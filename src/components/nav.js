@@ -1,10 +1,33 @@
 
-function Nav() {
+function Nav({ currentPage, handlePageChange }) {
         return(
             <nav className="nav">
-                <a href="#about-me">About Me</a>
-                <a href="#my-work">My Work</a>
-                <a href="#contact">Contact</a>
+                <a 
+                href="#home" 
+                onClick={() => handlePageChange('Home')}
+                >
+                    Home
+                </a>
+
+                <a 
+                href="#about" 
+                onClick={() => handlePageChange('About')}
+                >
+                    About Me
+                </a>
+                
+                <a 
+                href="#projects"
+                onClick={() => handlePageChange('Projects')}
+                >
+                    My Work
+                </a>
+                <a 
+                href="#contact"
+                onClick={() => handlePageChange('Contact')}
+                >
+                    Contact
+                </a>
             </nav>
         )
     }
