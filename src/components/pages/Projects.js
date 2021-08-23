@@ -1,5 +1,5 @@
 import weather from '../../assets/weather.png';
-import budget from '../../assets/budget.png';
+import dnd from '../../assets/DnD.png';
 import meal from '../../assets/meal.png';
 import scheduler from '../../assets/scheduler.png';
 
@@ -11,8 +11,8 @@ export default function Projects(){
                 <p>Weather Dashboard provides a five day forecast for any city as well as the current weather by using open weather API to retrieve the data.</p>
             </div>
             <div>
-                <img alt="budget app" src={budget}></img>
-                <p>Budget Tracker provides users with an easy way to keep track of their transactions over time. The data is tracked using Mongo DB and Mongoose, and uses IndexedDB to keep track of the users transactions if their network goes offline.</p>
+                <img alt="DnD app" src={dnd}></img>
+                <p>D&D Creations provides users with a way to keep track of characters they build as well as view other characters in the group. It uses MongoDB and GraphQL to handle database functionality, and uses React to display the front end UI.</p>
             </div>
             <div>
                 <img alt="meal app" src={meal}></img>
