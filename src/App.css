@@ -69,6 +69,12 @@ a {
   border-radius: 50%;
 }
 
+.project-images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project-images img{
   width: 100%;
   height: auto;
@@ -76,10 +82,8 @@ a {
 
 .project-images div{
   width: 50%;
+  border: 2px solid black;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.project-images{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
