@@ -87,3 +87,20 @@ a {
   margin-bottom: 2%;
 }
 
+.contact{
+  width: 20%;
+  height: 175px;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 6px solid black;
+}
+.contact h1{
+  margin-bottom: 0%;
+}
+.contact a{
+  color: black;
+  margin-bottom: 20px;
+}
