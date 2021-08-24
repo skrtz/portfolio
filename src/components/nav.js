@@ -1,3 +1,4 @@
+  
 function Nav({ currentPage, handlePageChange }) {
     const pages = ['Home', 'About', 'Projects', 'Contact'];
     const navLinks = pages.map(page => {
