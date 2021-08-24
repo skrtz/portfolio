@@ -14,7 +14,6 @@ export default function About() {
         UPenn Coding Bootcamp and seek to continue to build my knowledge of new technologies. For general 
         inquiries please feel free to reach out to me!
       </p>
-
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import weather from '../../assets/weather.png';
 import dnd from '../../assets/DnD.png';
-// import meal from '../../assets/meal.png';
 import scheduler from '../../assets/scheduler.png';
 
 export default function Projects() {
@@ -11,7 +10,6 @@ export default function Projects() {
                     <img alt="weather app" src={weather}></img>
                 </a>
                 <p>Weather Dashboard provides a five day forecast for any city as well as the current weather by using open weather API to retrieve the data.</p>
-
             </div>
             <div>
                 <a href="https://github.com/skrtz/DnD-Character-Builder" target="_blank">

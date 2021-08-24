@@ -1,4 +1,3 @@
-  
 function Nav({ currentPage, handlePageChange }) {
     const pages = ['Home', 'About', 'Projects', 'Contact'];
     const navLinks = pages.map(page => {
@@ -10,5 +9,4 @@ function Nav({ currentPage, handlePageChange }) {
     });
     return <nav className="nav" >{navLinks}</nav>;
 }
-
 export default Nav;
