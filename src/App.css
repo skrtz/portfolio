@@ -37,8 +37,8 @@ a {
   align-content: center;
   align-items: center;
   margin-top: 10%;
-  width: 25%;
-  height: 52%;
+  width: 360px;
+  height: 360px;
   border-radius: 50%;
   background-color: rgba(244, 165, 96, 0.568);
 }
@@ -103,3 +103,5 @@ a {
   color: black;
   margin-bottom: 20px;
 }
+
+/* @media screen ()  */
