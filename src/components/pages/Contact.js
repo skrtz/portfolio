@@ -1,11 +1,14 @@
 import React from 'react';
+import Resume from '../../assets/resume_2021.pdf'
 
 export default function Contact() {
   return (
     <div className="contact">
       <h1>Contact Me</h1>
-        <p>stephenjkurtz@gmail.com</p>
-        <a href="https://drive.google.com/file/d/1l1Mfh4Grfzn5fL8EXQsTvEVB60j4m8AB/view?usp=sharing" target="_blank">Click to view my resume</a>
+      <p>stephenjkurtz@gmail.com</p>
+      <a href={Resume} download="kurtz-resume">
+        Click to view my resume
+      </a>
     </div>
   );
 }
