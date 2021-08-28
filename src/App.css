@@ -56,7 +56,7 @@ a {
   margin: 0;
   color: rgba(0, 0, 0, 0.712);
   font-family: prata-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 35px;
   line-height: 1;
 }
@@ -76,6 +76,11 @@ a {
   flex-direction: column;
   align-items: center;
   margin-left: 25%;
+}
+.bio{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 1%;
+  line-height: 1.5;
 }
 .headshot{
   width: 45%;

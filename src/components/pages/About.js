@@ -7,7 +7,7 @@ export default function About() {
       <div className="headshot">
         <img alt="headshot" src={headshot}></img>
       </div>
-      <p >
+      <p className="bio">
         My name is Stephen Kurtz and I am a front-end developer from Philadelphia, PA. Along with my coding
         skills I leverage my many years of experience in the service industry and marketing by building user
         frendly & responsive web applications. I have my certificate in MERN stack web developement from 
