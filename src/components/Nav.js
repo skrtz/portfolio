@@ -3,9 +3,8 @@ import React, { useState } from "react";
 function Nav({ currentPage, handlePageChange, }) {
     const pages = ['HOME', 'ABOUT', 'PROJECTS', 'CONTACT'];
     const navLinks = pages.map(page => {
-
         return (
-            <a href={'/#' + page.toLocaleLowerCase()} onClick={() => handlePageChange(page)}>
+            <a href={'/#' + page.toLocaleLowerCase()} onClick={() => {setMenuOpen(false);handlePageChange(page)}}>
                 {page}
             </a>
         )
