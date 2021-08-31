@@ -1,23 +1,37 @@
 .App {
   /* text-align: center; */
   background-color: black;
+  position: relative;
 }
-
 .nav{
-  margin: 0%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 0vw;
+  height: 0vh;
+  opacity: 0;
+  padding-bottom: 0;
+  flex-direction: column;
   justify-content: space-evenly;
-  padding: 3%;
-  background: rgba(0, 0, 0, 0.644);
+  align-items: center;
+  background: rgb(128, 128, 128);
   z-index: 2;
-  display: none;
+  transition: opacity 500ms ease-in-out;
+}
+.nav.open{
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(0, 0, 0, 0.596);
+  font-weight: 600;
+}
+a:hover{
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .title-page{
@@ -142,7 +156,8 @@ a {
   height: 80px;
   cursor: pointer;
   transition: all .5s ease-in-out;
-  border: 1px solid #fff;
+  z-index: 4;
+  /* border: 1px solid #fff; */
 }
 .menu-btn__burger {
   width: 50px;
