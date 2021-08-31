@@ -13,7 +13,7 @@
   align-items: center;
   background: rgb(128, 128, 128);
   z-index: 2;
-  transition: opacity 500ms ease-in-out;
+  /* transition: opacity 500ms ease-in-out; */
 }
 .nav.open{
   display: flex;
@@ -84,20 +84,30 @@ a:hover{
 }
 
 .about{
-  margin-top: 2%;
-  width: 50%;
+  margin: auto;
+  /* margin-top: 5%; */
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-left: 25%;
+  justify-content: center;
+  background: blanchedalmond;
 }
 .bio{
-  border-bottom: 1px solid rgba(0, 0, 0, 0.397);
+  width: 75%;
   padding: 1%;
   line-height: 1.5;
+  width: 25%;
+  margin-left: 5%;
+  border-left: 1px solid black;
+  /* font-weight: 600; */
+  font-family:sans-serif;
 }
 .headshot{
-  width: 45%;
+  /* width: 45%; */
+  width: 30%;
+  margin-top: 5%;
 }
 
 .headshot img{
