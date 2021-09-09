@@ -18,6 +18,7 @@ export default function Projects() {
                             <a className="site-link" target="_blank" rel="noreferrer" href="https://skrtz.github.io/weather-dashboard/">deployed site</a>
                             <div className="icon-links">
                                 <a className="rocket" target="_blank" rel="noreferrer" href="https://skrtz.github.io/weather-dashboard/"> <AiOutlineRocket /> </a>
+                                <a className="github" target="_blank" rel="noreferrer" href="https://github.com/skrtz/weather-dashboard"> <FaGithub /> </a>
                             </div>
                         </div>
                     </div>
@@ -31,6 +32,7 @@ export default function Projects() {
                             <a className="site-link" target="_blank" rel="noreferrer" href="https://dnd-character-create.herokuapp.com/" >deployed site</a>
                             <div className="icon-links">
                                 <a className="rocket" target="_blank" rel="noreferrer" href="https://dnd-character-create.herokuapp.com/" ><AiOutlineRocket /></a>
+                                <a className="github" target="_blank" rel="noreferrer" href="https://github.com/skrtz/DnD-Character-Builder"> <FaGithub /> </a>
 
                             </div>
                         </div>
@@ -45,18 +47,18 @@ export default function Projects() {
                             <a className="site-link" target="_blank" rel="noreferrer" href="https://skrtz.github.io/workday-scheduler/">deployed site</a>
                             <div className="icon-links">
                                 <a className="rocket" target="_blank" rel="noreferrer" href="https://skrtz.github.io/workday-scheduler/"><AiOutlineRocket /></a>
-                                
+                                <a className="github" target="_blank" rel="noreferrer" href="https://github.com/skrtz/workday-scheduler"> <FaGithub /> </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="info-container">
+                {/* <div className="info-container">
                     <div className="code">
                         <a className="github" target="_blank" rel="noreferrer" href="https://github.com/skrtz/weather-dashboard"> <FaGithub size={30} /> </a>
                         <a className="github" target="_blank" rel="noreferrer" href="https://github.com/skrtz/DnD-Character-Builder"> <FaGithub size={30}/> </a>
                         <a className="github" target="_blank" rel="noreferrer" href="https://github.com/skrtz/workday-scheduler"> <FaGithub size={30}/> </a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
 
