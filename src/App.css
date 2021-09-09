@@ -31,17 +31,16 @@
   transition: opacity 500ms ease-in-out;
 }
 
-.nav a {
-  text-decoration: none;
+.nav li {
   /* color: rgba(0, 0, 0, 0.596); */
   font-weight: 600;
   color: bisque;
-  /* text-shadow: 1px 1px 1px black; */
   transition: color 500ms ease-in-out;
+  list-style: none;
 }
-.nav a:hover{
+.nav li:hover{
   cursor: pointer;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* color:peru; */
   color:darkslategray;
   transition: color 500ms ease-in-out;
@@ -52,7 +51,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: black; */
   background-color: rgb(48, 48, 48);
 }
 
@@ -111,11 +109,11 @@
 }
 @keyframes slideInFromTop {
   0% {
-      opacity: 0;
+      /* opacity: 0; */
       transform: translateY(-200%);
   }
   100% {
-      opacity: 1;
+      /* opacity: 1; */
       transform: translateY(0%);
   }
 }
