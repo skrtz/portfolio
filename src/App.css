@@ -4,8 +4,6 @@
 }
 .main{
   background-color: blanchedalmond;
-  /* background-color: rgb(199, 141, 141); */
-  /* background-color: rgb(126, 173, 130); */
   width: 100vw;
   height: 100vh;
 }
@@ -101,8 +99,8 @@ a{
 .about{
   margin: auto;
   /* margin-top: 7%; */
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -115,7 +113,7 @@ a{
   line-height: 1.5;
   width: 25%;
   margin-left: 5%;
-  /* border-left: 1px solid black; */
+  border-left: 1px solid black;
   font-family:sans-serif;
     /* font-weight: 600; */
   overflow: hidden;
@@ -311,7 +309,7 @@ justify-content: flex-start;
 }
 
 .footer-container{
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 10%;
@@ -418,19 +416,8 @@ justify-content: flex-start;
   }
   .headshot{
     width: 40%;
-    /* width: 30%; */
     margin-top: 5%;
     margin-bottom: 5%;
-  }
-  .footer-container{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
-    background-color: rgb(59, 88, 71);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 
 } 
