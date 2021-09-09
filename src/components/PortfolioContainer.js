@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer  from './Footer';
 import '../App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ export default function PortfolioContainer() {
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
