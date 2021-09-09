@@ -3,6 +3,7 @@
   position: relative;
 }
 .main{
+  position: absolute;
   background-color: blanchedalmond;
   width: 100vw;
   height: 100vh;
@@ -97,6 +98,7 @@ a{
 }
 
 .about{
+  position: absolute;
   margin: auto;
   /* margin-top: 7%; */
   width: 100%;
