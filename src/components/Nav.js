@@ -24,11 +24,6 @@ function Nav() {
     });
     let [menuOpen, setMenuOpen] = useState(false);
     const handleClick = () => {
-        // if (!menuOpen) {
-        //     menuOpen = true;
-        // } else {
-        //     menuOpen = false;
-        // }
         setMenuOpen(!menuOpen);
         console.log(menuOpen);
     }
