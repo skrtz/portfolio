@@ -292,13 +292,23 @@ justify-content: flex-start;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 20%;
-  height: 175px;
+  /* height: 200px; */
+  /* height: 35%; */
+  width: 360px;
+  height: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  justify-content: space-evenly;
   border: 6px solid black;
+  /* border-radius: 50%; */
   background: blanchedalmond;
+  transition: background .5s ease-in-out;
+  color: #000;
+}
+.contact:hover{
+  background: rgb(220, 190, 20);
 }
 .contact h1{
   margin-bottom: 0%;
@@ -306,7 +316,8 @@ justify-content: flex-start;
 }
 .contact a{
   color: black;
-  margin-bottom: 20px;
+  font-weight:900;
+  /* margin-bottom: 20px; */
 }
 
 .footer-container{
